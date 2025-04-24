@@ -1,15 +1,21 @@
 window.org-gnome-TextEditor {
-  background-color: $background_color;
-
   .top-bar headbar {
-    background-color: $background_color;
+    background-color: transparent;
   }
 
-  scrolledwindow textview.editor {
+  page {
     background-color: $background_color;
-  }
 
-  EditorSourceMap {
-    @include secondary-background-gradient;
+    * {
+      background-color: transparent;
+    }
+
+    .editor.view text {
+      background-color: $background_color;
+    }
+
+    EditorSourceMap {
+      @include secondary-background-gradient;
+    }
   }
 }

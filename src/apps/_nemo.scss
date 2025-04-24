@@ -9,7 +9,7 @@ window.nemo-window {
 
   menubar {
     @include secondary-background-gradient;
-    background-color: $background-color;
+    background-color: transparent;
 
     padding: 2px 5px;
 

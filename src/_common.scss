@@ -26,7 +26,7 @@ window.background {
 
   headerbar {
     @include secondary-background-gradient;
-    background-color: $background-color;
+    background-color: transparent;
 
     button {
       @include background-reset;
