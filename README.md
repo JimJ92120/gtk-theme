@@ -2,6 +2,8 @@
 
 Overriding [`gtk-theme`](https://gitlab.gnome.org/GNOME/gtk/-/tree/gtk-4.0/gtk/theme/Adwaita).
 
+![screenshot](./screenshot.png)
+
 ---
 
 ---
