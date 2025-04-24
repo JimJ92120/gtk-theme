@@ -8,9 +8,9 @@ Overriding [`gtk-theme`](https://gitlab.gnome.org/GNOME/gtk/-/tree/gtk-4.0/gtk/t
 
 # installation
 
-|        |     |
-| ------ | --- |
-| `node` |     |
+| requirements |     |
+| ------------ | --- |
+| `node`       |     |
 
 ```sh
 git clone <repository-name>
