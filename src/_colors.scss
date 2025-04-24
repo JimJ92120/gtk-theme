@@ -1,71 +1,68 @@
-$primary_color: #fbf1c7;
-$secondary_color: #857c6d;
-$dark_color: #140114;
-$background_color: #060006;
+// $top_hilight: $borders_edge;
+// $menu_color: $base_color;
+// $backdrop_bg_color: $bg_color;
 
-$primary_gradient: linear-gradient(
-  to right,
-  rgba(107, 14, 14, 0.1) 0%,
-  rgba(42, 9, 9, 0.3) 20%,
-  rgba(33, 3, 40, 0.4) 60%,
-  rgba(8, 0, 8, 0.5) 100%
-);
-$secondary_gradient: linear-gradient(
-  to left,
-  rgba(107, 14, 14, 0.1) 0%,
-  rgba(42, 9, 9, 0.3) 20%,
-  rgba(33, 3, 40, 0.4) 60%,
-  rgba(8, 0, 8, 0.5) 100%
-);
-$light_gradient: linear-gradient(
-  to right,
-  rgba(172, 21, 21, 0.4) 0%,
-  rgba(78, 8, 8, 0.4) 50%,
-  rgba(184, 121, 121, 0.3) 75%,
-  rgba(247, 217, 217, 0.3) 100%
-);
+// $suggested_bg_color: $selected_bg_color;
+// $suggested_border_color: $selected_borders_color;
+// $progress_bg_color: $selected_bg_color;
+// $progress_border_color: $selected_borders_color;
+// $checkradio_bg_color: $selected_bg_color;
+// $checkradio_fg_color: $selected_fg_color;
+// $switch_bg_color: $selected_bg_color;
 
-$critical_gradient: linear-gradient(
-  to right,
-  rgba(172, 21, 21, 0.5) 0%,
-  rgba(78, 8, 8, 0.4) 50%,
-  rgba(42, 9, 9, 0.2) 75%,
-  rgba(107, 14, 14, 0.2) 100%
-);
-$success_gradient: linear-gradient(
-  to right,
-  rgba(119, 172, 21, 0.4) 0%,
-  rgba(25, 37, 2, 0.4) 0%,
-  rgba(42, 9, 9, 0.2) 75%,
-  rgba(107, 14, 14, 0.2) 100%
-);
-$red_gradient: linear-gradient(
-  to right,
-  rgba(172, 21, 21, 0.4) 0%,
-  rgba(42, 9, 9, 0.2) 75%,
-  rgba(107, 14, 14, 0.2) 100%
-);
-$blue_gradient: linear-gradient(
-  to right,
-  rgba(21, 109, 172, 0.4) 0%,
-  rgba(42, 9, 9, 0.2) 75%,
-  rgba(107, 14, 14, 0.2) 100%
-);
-$green_gradient: linear-gradient(
-  to right,
-  rgba(119, 172, 21, 0.4) 0%,
-  rgba(42, 9, 9, 0.2) 75%,
-  rgba(107, 14, 14, 0.2) 100%
-);
-$grey_gradient: linear-gradient(
-  to right,
-  rgba(63, 77, 87, 0.4) 0%,
-  rgba(42, 9, 9, 0.2) 75%,
-  rgba(107, 14, 14, 0.2) 100%
-);
-$orange_gradient: linear-gradient(
-  to right,
-  rgba(172, 107, 21, 0.4) 0%,
-  rgba(42, 9, 9, 0.2) 75%,
-  rgba(107, 14, 14, 0.2) 100%
-);
+$dim_label_opacity: 0.55;
+
+$text_color: $primary_color;
+$selected_fg_color: $primary_color;
+$fg_color: $primary_color;
+$insensitive_fg_color: $primary_color;
+$backdrop_insensitive_color: $primary_color;
+$backdrop_text_color: $primary_color;
+$backdrop_fg_color: $primary_color;
+$osd_fg_color: $primary_color;
+$osd_text_color: $primary_color;
+$osd_insensitive_fg_color: $primary_color;
+
+$base_color: $background_color;
+$bg_color: $background_color;
+$insensitive_bg_color: $background_color;
+$selected_bg_color: $background_color;
+$backdrop_bg_color: $background_color;
+$backdrop_base_color: $background_color;
+
+$dark_fill: $background_color;
+$headerbar_bg_color: $background_color;
+$scrollbar_bg_color: $background_color;
+$sidebar_bg_color: $background_color;
+$insensitive_fg_color: $background_color;
+$insensitive_bg_color: $background_color;
+$backdrop_base_color: $background_color;
+$backdrop_dark_fill: $background_color;
+$osd_bg_color: $background_color;
+$osd_insensitive_bg_color: $background_color;
+
+$selected_fg_color: $secondary_color;
+$alt_borders_color: $secondary_color;
+$link_color: $secondary_color;
+$menu_selected_color: $secondary_color;
+$scrollbar_slider_color: $secondary_color;
+$scrollbar_slider_hover_color: $secondary_color;
+$scrollbar_slider_active_color: $secondary_color;
+$backdrop_insensitive_color: $secondary_color;
+$backdrop_selected_fg_color: $secondary_color;
+
+$link_visited_color: $dark_color;
+
+$selected_borders_color: transparent;
+$borders_color: transparent;
+$borders_edge: transparent;
+$insensitive_borders_color: transparent;
+$tooltip_borders_color: transparent;
+$shadow_color: transparent;
+$drop_target_color: transparent;
+$backdrop_borders_color: transparent;
+$checkradio_borders_color: transparent;
+$switch_borders_color: transparent;
+$focus_border_color: transparent;
+$alt_focus_border_color: transparent;
+$osd_borders_color: transparent;
