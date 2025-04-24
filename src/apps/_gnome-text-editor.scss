@@ -1,0 +1,15 @@
+window.org-gnome-TextEditor {
+  background-color: $background_color;
+
+  .top-bar headbar {
+    background-color: $background_color;
+  }
+
+  scrolledwindow textview.editor {
+    background-color: $background_color;
+  }
+
+  EditorSourceMap {
+    @include secondary-background-gradient;
+  }
+}

@@ -1,6 +1,25 @@
-.nemo-window {
+window.nemo-window {
+  button:hover {
+    @include primary-background-gradient;
+  }
+
   .toolbar {
     @include secondary-background-gradient;
+  }
+
+  menubar {
+    @include secondary-background-gradient;
+    background-color: $background-color;
+
+    padding: 2px 5px;
+
+    > * {
+      margin: 2px 0 2px 10px;
+    }
+
+    * {
+      @include background-reset;
+    }
   }
 
   .primary-toolbar {
@@ -44,12 +63,17 @@
     }
 
     .path-bar.linked {
+      background-color: $dark_color;
+      background-image: none;
+
       &:not(.vertical) {
         > button {
           border: none;
           border-radius: 0;
           margin-left: 1px;
           margin-right: 1px;
+          background-color: $dark_color;
+          background-image: none;
 
           &:checked {
             box-shadow: none;
@@ -93,11 +117,7 @@
     padding-bottom: 3px;
   }
 
-  .nemo-places-sidebar {
-    @include secondary-background-gradient;
-  }
-
-  button:hover {
-    @include primary-background-gradient;
+  .sidebar {
+    background-color: $background-color;
   }
 }

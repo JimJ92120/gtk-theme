@@ -1,0 +1,32 @@
+window.background {
+  // .top-bar
+  // .bottom-bar
+  // scrolledwindow.history-view
+
+  toolbarview > clamp {
+    background-color: $background_color;
+  }
+
+  mathdisplay #display-item {
+    @include secondary-background-gradient;
+
+    font-family: Liberation, monospace;
+  }
+
+  .math-buttons {
+    button {
+      background-color: $dark_color;
+      background-image: none;
+      border-bottom: 1px solid transparent;
+
+      &.number-button {
+        background-color: $background_color;
+      }
+
+      &:hover {
+        border: 1px solid $secondary_color;
+        background-color: $background_color;
+      }
+    }
+  }
+}
