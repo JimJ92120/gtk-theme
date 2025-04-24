@@ -1,7 +1,49 @@
-paned,
-.placessidebar,
-.navigation-sidebar,
-.background,
-.sidebar {
+// paned,
+// .placessidebar,
+// .navigation-sidebar,
+// .sidebar {
+//   color: red;
+// }
+
+// headerbar,
+// viewport.frame,
+// .menu,
+// .toolbar {
+//   color: green;
+
+//   background-color: red;
+// }
+
+input,
+button {
+  @include primary-background-gradient;
+  background-color: $background-color;
+
+  &:hover,
+  &:focus {
+    @include secondary-background-gradient;
+
+    border: 1px solid $secondary_color;
+  }
+}
+
+window.background {
   @include secondary-background-gradient;
+
+  menubar {
+    background-color: transparent;
+    padding: 2px 5px;
+
+    > * {
+      margin: 2px 0 2px 10px;
+    }
+
+    * {
+      @include background-reset;
+    }
+  }
+
+  .view {
+    background-color: $background-color;
+  }
 }

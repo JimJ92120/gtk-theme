@@ -25,6 +25,11 @@ $alt_borders_color: $secondary_color;
 
 $link_color: $dark_color;
 
+* {
+  font-family: Liberation, Mono;
+  font-size: 11px;
+}
+
 // $warning_color: #f57900;
 // $error_color: #cc0000;
 // $success_color: if($variant == "light", #33d17a, darken(#33d17a, 10%));
