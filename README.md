@@ -18,6 +18,10 @@ git clone <repository-name>
 npm install
 ```
 
+### adwaita
+
+[`gtk-theme`](https://gitlab.gnome.org/GNOME/gtk/-/tree/gtk-4.0/gtk/theme/Adwaita) is set in `src/Adwaita`.
+
 # build
 
 ```sh
