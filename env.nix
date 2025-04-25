@@ -3,6 +3,7 @@ pkgs.mkShell {
   nativeBuildInputs = with pkgs; [
     nodejs
     yarn
+    # nwg-look
   ];
 
   buildInputs = with pkgs;[
