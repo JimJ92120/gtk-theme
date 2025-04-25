@@ -49,9 +49,9 @@ e.g `~/.themes` with [`nwg-look`](https://github.com/nwg-piotr/nwg-look)
 
 ```
 /dist
-  (assets)
   index.theme
 
+  /assets
   /gtk-3.0
     gtk.css
   /gtk-4.0
