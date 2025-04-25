@@ -1,5 +1,5 @@
 {
-  "name": "hyprland-custom",
+  "name": "gtk-theme-custom",
   "version": "0.1.0",
   "scripts": {
     "build:dev": "webpack --mode=development && rm -rf dist/gtk-*/*.js",

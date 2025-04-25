@@ -8,12 +8,13 @@ window.background {
 //
 input,
 button {
-  @include primary-background-gradient;
+  @include secondary-background-gradient;
+
   background-color: $background-color;
 
   &:hover,
-  &:focus {
-    @include secondary-background-gradient;
+  &:focus &.active {
+    @include primary-background-gradient;
 
     border: 1px solid $secondary_color;
   }
@@ -34,4 +35,9 @@ window.background {
       background-color: $dark_color;
     }
   }
+}
+
+dropdown,
+popover {
+  @include popup;
 }
