@@ -3,12 +3,12 @@ $variant: "dark";
 @import "./theme";
 @import "./mixins";
 
-@import "./Adwaita/colors";
+@import "base/colors";
 @import "./colors";
 
-@import "./Adwaita/drawing";
-@import "./Adwaita/common";
-@import "./Adwaita/colors-public";
+@import "base/drawing";
+@import "base/common";
+@import "base/colors-public";
 
 //
 @import "./typography";

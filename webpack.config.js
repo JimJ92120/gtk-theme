@@ -9,6 +9,13 @@ module.exports = {
   },
   output: {
     path: path.resolve(__dirname, "dist"),
+    assetModuleFilename: "assets/[hash][ext][query]",
+  },
+  resolve: {
+    alias: {
+      base: path.resolve(__dirname, "./static/theme"),
+      assets: path.resolve(__dirname, "./static/theme/assets"),
+    },
   },
   module: {
     rules: [

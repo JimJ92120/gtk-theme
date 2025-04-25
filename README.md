@@ -22,7 +22,7 @@ npm install
 
 ### base theme
 
-[`gtk-theme-adwaita`](https://gitlab.gnome.org/GNOME/gtk/-/tree/gtk-4.0/gtk/theme/Adwaita) is set in `src/Adwaita`.
+[`gtk-theme-adwaita`](https://gitlab.gnome.org/GNOME/gtk/-/tree/gtk-4.0/gtk/theme/Adwaita) is set in `static/theme`.
 
 Any theme may be used instead.
 
