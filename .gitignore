@@ -1,4 +1,3 @@
 node_modules/
 dist/
-gtk-*
-!src/gtk-*
+package-lock.json
