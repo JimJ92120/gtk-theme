@@ -3,12 +3,12 @@ $variant: "dark";
 @import "./theme";
 @import "./mixins";
 
-@import "base/colors";
+@import "$theme/colors";
 @import "./colors";
 
-@import "base/drawing";
-@import "base/common";
-@import "base/colors-public";
+@import "$theme/drawing";
+@import "$theme/common";
+@import "$theme/colors-public";
 
 //
 @import "./typography";

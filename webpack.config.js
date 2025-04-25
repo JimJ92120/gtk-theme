@@ -13,7 +13,7 @@ module.exports = {
   },
   resolve: {
     alias: {
-      base: path.resolve(__dirname, "./static/theme"),
+      $theme: path.resolve(__dirname, "./static/theme"),
       assets: path.resolve(__dirname, "./static/theme/assets"),
     },
   },
