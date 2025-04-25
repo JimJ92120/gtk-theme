@@ -62,4 +62,48 @@ e.g `~/.themes` with [`nwg-look`](https://github.com/nwg-piotr/nwg-look)
 
 ---
 
-#
+# nixos
+
+Example to add to `nixos` configuration with `home-manager`:
+
+```nix
+{ pkgs, lib, ... }:
+
+let
+  USERNAME = "username";
+
+  GTK_THEME_NAME = "GtkThemeCustom";
+  GTK_THEME_DIRECTORY = /path/to/gtk-theme/dist;
+in
+{
+  environment.systemPackages = with pkgs; [
+    nwg-look
+  ];
+
+  home-manager = {
+    users.${USERNAME} = {
+      home = {
+        file = lib.mkMerge [
+          {
+            ".themes/${GTK_THEME_NAME}" = {
+              source = GTK_THEME_DIRECTORY;
+              recursive = true;
+            };
+          }
+        ];
+      };
+
+      # hyprland
+      wayland.windowManager.hyprland = {
+        settings = {
+
+          env = [
+            # "GTK_DEBUG, interactive"
+            "GTK_THEME, ${GTK_THEME_NAME}"
+          ];
+        };
+      };
+    };
+  };
+}
+```
