@@ -22,16 +22,23 @@ npm install
 
 ### base theme
 
-[`gtk-theme-adwaita`](https://gitlab.gnome.org/GNOME/gtk/-/tree/gtk-4.0/gtk/theme/Adwaita) is set in `static/theme`.
+Copy [`gtk-theme-adwaita`](https://gitlab.gnome.org/GNOME/gtk/-/tree/gtk-4.0/gtk/theme/Adwaita) content in `static/theme/`.
 
-Any theme may be used instead.
+Any theme may be used instead as long as following the structure:
+
+````
+static/
+  theme/
+    some-stylesheet.scss
+    assets/
+      some-assets.(png|svg|...)
 
 # build
 
 ```sh
 npm run build:dev # development
 npm run build # production
-```
+````
 
 Then copy the build (`dist/`) to the `themes` directory.
 
