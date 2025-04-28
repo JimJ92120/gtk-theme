@@ -18,6 +18,7 @@ Overriding [`gtk-theme`](https://gitlab.gnome.org/GNOME/gtk/-/tree/gtk-4.0/gtk/t
 git clone <repository-name>
 
 npm install
+npm install:base-theme
 ```
 
 ### base theme
